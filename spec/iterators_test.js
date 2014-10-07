@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var Iterators = require('../iterators.js');
+var Iterators = require('../iterators');
 
 describe('Iterators', function () {
   describe('#max', function () {
