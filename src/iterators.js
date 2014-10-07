@@ -1,9 +1,9 @@
 var Iterators = (function() {
   var api = {
-    max: function(numList){
+    max: function (numList) {
       var max = -Infinity;
       for (var i = 0; i < numList.length; i++) {
-        if ( numList[i] > max ) {
+        if (numList[i] > max) {
           max = numList[i];
         }
       };
