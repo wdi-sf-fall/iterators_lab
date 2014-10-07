@@ -4,10 +4,9 @@
   "description": "a lab on iterators",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/iterators_test.js"
+    "test": "mocha -R spec spec/iterators_test.js"
   },
   "dependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.20.1"
+    "chai": "^1.9.1"
   }
 }

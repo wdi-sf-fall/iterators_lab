@@ -1,5 +1,4 @@
-var Iterators = (function() {
-  var api = {
+var iterators = {
     max: function (numList) {
       var max = -Infinity;
       for (var i = 0; i < numList.length; i++) {
@@ -11,7 +10,4 @@ var Iterators = (function() {
     }
   };
 
-  return api;
-})();
-
-module.exports = Iterators;
+module.exports = iterators;
