@@ -13,6 +13,6 @@ describe('Iterators', function () {
     it('should return -Infinity for empty array', function () {
       myArr = [];
       expect(Iterators.max(myArr)).to.equal(-Infinity);
-    })
-  })
-})
+    });
+  });
+});
