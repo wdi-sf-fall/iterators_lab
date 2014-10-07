@@ -6,7 +6,7 @@ var Iterators = (function() {
         if (numList[i] > max) {
           max = numList[i];
         }
-      };
+      }
       return max;
     }
   };
