@@ -1,4 +1,3 @@
-
 var Iterators = (function() {
   var api = {
     max: function(numList){
